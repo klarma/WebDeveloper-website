@@ -16,9 +16,5 @@ $doc.on('scroll', function () {
         'opacity': 1 - scrollSize / headerHeight,
         'filter': 'grayscale(' + 2 * scrollSize / headerHeight + ')'
     })
-    // $('header>*').css('transform', 'scale(0)');
 })
 
-
-
-// przerzuć na poczatek
